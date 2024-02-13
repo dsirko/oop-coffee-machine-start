@@ -12,3 +12,6 @@ while coffee_machine_is_on:
         ingridients_report.report()
         money_report = MoneyMachine()
         money_report.report()
+    if user_answer == "off":
+        print("Coffee machine is going shot down...")
+        coffee_machine_is_on = False
